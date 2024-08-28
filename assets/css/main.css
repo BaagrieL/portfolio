@@ -1,7 +1,7 @@
 @import url(./components/sections.css);
 
 body {
-  background: #264e36;
+  background: #3A6073;
   color: #c6c6c6;
 }
 
@@ -116,7 +116,7 @@ footer {
     height: 2rem;
     width: 2rem;
     border-radius: 0 0 2rem 0;
-    background-color: #1ab977;
+    background-color: #3A6073;
   }
 
   &::before {
