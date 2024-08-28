@@ -146,3 +146,7 @@ footer {
 .social-links a:hover {
   color: rgb(109, 45, 109);
 }
+
+iframe {
+  width: 100%;
+}
