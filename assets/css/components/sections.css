@@ -27,7 +27,7 @@ article .container {
 }
 
 #bio {
-  background: linear-gradient(to right, #6B2737, #9c3f50, #3E3E3E);
+  background: linear-gradient(to right, #2C3E50, #4CA1AF);
 }
 
 .img-bio__container {
@@ -44,7 +44,7 @@ article .container {
 }
 
 #skills {
-  background: linear-gradient(to right, #3A1B6A, #8d7aa3, #123456);
+  background: linear-gradient(to right,#373B44, #4286f4);
 }
 
 .imgs__container {
@@ -64,7 +64,7 @@ article .container {
 }
 
 #projects {
-  background: linear-gradient(to right, #264E36, #367751, #1ab977);
+  background: linear-gradient(to right, #1D2B64, #3A6073);
   min-height: calc(100svh - 3.8rem);
   height: fit-content;
 }
@@ -77,10 +77,14 @@ article .container {
   width: 100%;
   height: auto;
   padding: 2rem 0;
-  
-  & div {
-    height: 13rem;
+}
+
+.projects__container div {
+    height: fit-content;
     border-radius: .8rem;
-    background-color: #2b4429;
-  }
+
+    & img {
+      max-width: 100%;
+      border-radius: .8rem;
+    }
 }
